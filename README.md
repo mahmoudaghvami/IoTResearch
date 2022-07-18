@@ -2,12 +2,12 @@
 
 This page includes a collection of papers recommended for those interested in studying Internet of Things privacy.
 
-Network Attacker
+**Network Attacker
 
 
-Malicious App maker
+**Malicious App maker
 
 
-Malicious Platform
+**Malicious Platform
 
 
