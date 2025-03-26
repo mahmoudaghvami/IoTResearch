@@ -6,30 +6,26 @@ This page includes a collection of papers focused on Internet of Things (IoT) pr
 
 ## Privacy Preservation Techniques
 
-### Privacy-preserving Trigger-Action Platform (PTAP)
+### Activity Recognition Protection for IoT Trigger-Action Platforms (PTAP)
 - **Link**: [PTAP on GitHub](https://github.com/mahmoudaghvami/ptap)
-- **Authors**: Mahmoud Aghvami, Moreteza Amini, Musard Balliu, Cyrille Artho.
+- **Link (EuroS&P 2024)**: [EuroS&P 2024 Paper](https://people.kth.se/~musard/research/pubs/EuroSP24.pdf)
+- **Authors**: Mahmoud Aghvami, Morteza Amini, Musard Balliu, Cyrille Artho
 - **Summary**: PTAP aims to preserve privacy while maintaining utility in smart home environments by using adversarial machine learning techniques to perturb smart home data, preventing sensitive inferences.
 
-### Practical Data Access Minimization in Trigger-Action Platforms
-- **Link**: [USENIX Security 2022](https://www.usenix.org/conference/usenixsecurity22)
+### Practical Data Access Minimization in Trigger-Action Platforms (minTAP)
+- **Link**: [USENIX Security 2022](https://www.usenix.org/conference/usenixsecurity22/presentation/chen-yunang-practical)
 - **Authors**: Yunang Chen, Andrei Sabelfeld, Rahul Chatterjee, et al.
 - **Summary**: This paper focuses on minimizing data access in IoT platforms by implementing data access policies that limit the amount of user data shared with third-party applications.
 
-### Data Privacy in Trigger-Action Systems
-- **Link**: [IEEE Security and Privacy 2021](https://ieeexplore.ieee.org/document/9533192)
+### Data Privacy in Trigger-Action Systems (eTAP)
+- **Link**: [arXiv 2020](https://arxiv.org/abs/2012.05749)
 - **Authors**: Yunang Chen, Amrita Roy Chowdhury, et al.
-- **Summary**: This research looks into how data privacy can be enforced in trigger-action platforms used in IoT systems like SmartThings and IFTTT, proposing techniques such as data minimization.
+- **Summary**: Trigger-action platforms (TAPs) allow users to connect independent web-based or IoT services to achieve useful automation. Unfortunately, TAPs introduce a large-scale security risk: if compromised, attackers could access sensitive data. eTAP addresses this by executing trigger-compute-action rules without accessing users' private data in plaintext or learning anything about the results. The paper uses garbled circuits as a primitive and has been implemented in platforms like IFTTT and Zapier.
 
 ### PFirewall: Semantics-Aware Customizable Data Flow Control for Smart Home Privacy Protection
-- **Link**: [NDSS 2021](https://www.ndss-symposium.org/)
+- **Link**: [NDSS 2021](https://www.ndss-symposium.org/ndss-paper/pfirewall-semantics-aware-customizable-data-flow-control-for-smart-home-privacy-protection/)
 - **Authors**: Haotian Chi, Qiang Zeng, Xiaojiang Du, et al.
-- **Summary**: This paper introduces a data flow control system to protect privacy in smart homes by filtering sensitive data based on the context of the IoT environment.
-
-### FlowFence: Practical Data Protection for Emerging IoT Application Frameworks
-- **Link**: [USENIX Security 2016](https://www.usenix.org/conference/usenixsecurity16)
-- **Authors**: Earlence Fernandes, Atul Prakash, Justin Paupore, et al.
-- **Summary**: The paper presents FlowFence, a system that protects data privacy while still allowing smart home applications to function effectively.
+- **Summary**: This paper introduces PFirewall, a customizable data-flow control system for enhancing IoT platform privacy. PFirewall generates data-minimization policies to disclose the minimum amount of data required for automation. It also allows homeowners to define user-specific privacy preferences.
 
 ---
 
@@ -98,31 +94,6 @@ Welcome to the **Human Activity Recognition (HAR) Datasets Repository**! This se
 [GitHub Repository for HAR Datasets](https://github.com/mahmoudaghvami/human-activity-datasets)
 
 ---
-
-
-# Human Activity Recognition (HAR) Datasets
-
-Welcome to the **Human Activity Recognition (HAR) Datasets Repository**! This page provides an overview of publicly available datasets used for **smart home automation, activity recognition, and machine learning**.
-
-## 📌 1. Multi-Modal Dataset of Human Activities of Daily Living
-**🔗 [Dataset Access](https://zenodo.org/records/7937591)**  
-- **25 activities**, **14 participants**, **8615 instances**
-- Captured with **audio, vibration, infrared, light, and environmental sensors**.
-
-## 📌 2. ContextAct@A4H Dataset
-**🔗 [Amiqual4Home Access](http://amiqual4home.inria.fr)**  
-- **Real-life** smart home dataset over **four weeks**.
-- Includes **object interactions, environmental conditions, and self-reported activities**.
-
-## 📌 3. Orange4Home Dataset
-**🔗 [Dataset Link](#)**  
-- Captures **multi-modal human activity** in a **smart home environment**.
-- Includes **occupancy tracking, temperature, motion, and appliance usage**.
-
-## 🔍 Use Cases
-✅ **AI & ML-based Human Activity Recognition (HAR)**  
-✅ **Smart home automation & IoT**  
-✅ **Healthcare monitoring (elderly care, assisted living)**  
-
-📌 [GitHub Repository](https://github.com/mahmoudaghvami/human-activity-datasets)
-
+|A|B|C|
+|-|-|-|
+|Learn more about IoT privacy concerns|Explore additional IoT datasets|Understand how HAR impacts privacy|
