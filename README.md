@@ -36,11 +36,6 @@ This page includes a collection of papers focused on Internet of Things (IoT) pr
 - **Authors**: Noah Apthorpe, Dillon Reisman, Nick Feamster, et al.
 - **Summary**: This paper examines the privacy risks of encrypted IoT traffic and the potential for adversaries to spy on smart homes by exploiting traffic patterns.
 
-### Mockdroid: Trading Privacy for Application Functionality on Smartphones
-- **Link**: [ACM Digital Library](https://dl.acm.org/doi/10.1145/1929319.1929345)
-- **Authors**: Alastair R. Beresford, Andrew Rice, Nick Skehin, Ripduman Sohan
-- **Summary**: Focuses on privacy concerns when applications on smartphones trade sensitive user data for functionality, which also extends to IoT systems in the context of privacy loss for enhanced features.
-
 ### Sensitive Information Tracking in Commodity IoT
 - **Link**: [USENIX Security 2018](https://www.usenix.org/conference/usenixsecurity18)
 - **Authors**: Z Berkay Celik, Leonardo Babun, Amit Kumar Sikder, et al.
