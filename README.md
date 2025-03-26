@@ -8,7 +8,7 @@ This page includes a collection of papers focused on Internet of Things (IoT) pr
 
 ### Privacy-preserving Trigger-Action Platform (PTAP)
 - **Link**: [PTAP on GitHub](https://github.com/mahmoudaghvami/ptap)
-- **Authors**: Mahmoud Aghvami, Andrei Sabelfeld, et al.
+- **Authors**: Mahmoud Aghvami, Moreteza Amini, Musard Balliu, Cyrille Artho.
 - **Summary**: PTAP aims to preserve privacy while maintaining utility in smart home environments by using adversarial machine learning techniques to perturb smart home data, preventing sensitive inferences.
 
 ### Practical Data Access Minimization in Trigger-Action Platforms
